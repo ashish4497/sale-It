@@ -55,7 +55,7 @@ export default function HomeScreen() {
       </ThemedView>
       <ThemedText type="subtitle">Step : Welcome Text</ThemedText>
         <ThemedText>
-          Test git working flow
+          Test git working flow Done
         </ThemedText>
     </ParallaxScrollView>
   );
