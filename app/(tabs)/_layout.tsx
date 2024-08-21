@@ -1,11 +1,9 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
-import BottomTabNavigator from '@/components/navigation/BottomTabNavigator'; // Import your BottomTabNavigator component
+import BottomTabNavigator from '@/components/navigation/BottomTabNavigator';
+export default function TabLayout() {
 
-export default function App() {
   return (
-    <NavigationContainer>
-      <BottomTabNavigator />
-    </NavigationContainer>
+    <BottomTabNavigator/>
   );
 }
