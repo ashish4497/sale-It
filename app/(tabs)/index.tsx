@@ -46,6 +46,13 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">app-example</ThemedText>.
         </ThemedText>
       </ThemedView>
+      <ThemedView style={styles.stepContainer}>
+        <ThemedText type="subtitle">Step 4: Testing the git</ThemedText>
+        <ThemedText>
+          Why this needed, run{' '}
+          <ThemedText type="defaultSemiBold">No Idea</ThemedText> to get a fresh{' '}
+        </ThemedText>
+      </ThemedView>
     </ParallaxScrollView>
   );
 }
