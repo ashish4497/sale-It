@@ -53,6 +53,10 @@ export default function HomeScreen() {
           <ThemedText type="defaultSemiBold">No Idea</ThemedText> to get a fresh{' '}
         </ThemedText>
       </ThemedView>
+      <ThemedText type="subtitle">Step : Welcome Text</ThemedText>
+        <ThemedText>
+          Test git working flow Done
+        </ThemedText>
     </ParallaxScrollView>
   );
 }
